@@ -1,6 +1,6 @@
 using AutoMapper;
 using ProcessHub.Core.Models;
-using ProcessHub.Controllers.Resources;
+using ProcessHub.Core.Resources;
 
 namespace ProcessHub.Mapping
 {
