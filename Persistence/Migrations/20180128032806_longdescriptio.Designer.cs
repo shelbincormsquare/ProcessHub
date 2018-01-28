@@ -11,9 +11,10 @@ using System;
 namespace ProcessHub.Migrations
 {
     [DbContext(typeof(ProcessHubDbContext))]
-    partial class ProcessHubDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180128032806_longdescriptio")]
+    partial class longdescriptio
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
