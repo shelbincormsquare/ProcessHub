@@ -4,12 +4,12 @@ using System.Collections.Generic;
 
 namespace ProcessHub.Persistence.Migrations
 {
-    public partial class longdescriptio : Migration
+    public partial class testaftermovefolder : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.AddColumn<string>(
-                name: "LongDescription",
+                name: "ShortDescription",
                 table: "Projects",
                 nullable: true);
         }
@@ -17,7 +17,7 @@ namespace ProcessHub.Persistence.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropColumn(
-                name: "LongDescription",
+                name: "ShortDescription",
                 table: "Projects");
         }
     }

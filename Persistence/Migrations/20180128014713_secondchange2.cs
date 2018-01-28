@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace ProcessHub.Migrations
+namespace ProcessHub.Persistence.Migrations
 {
     public partial class secondchange2 : Migration
     {

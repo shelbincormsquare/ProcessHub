@@ -11,8 +11,8 @@ using System;
 namespace ProcessHub.Persistence.Migrations
 {
     [DbContext(typeof(ProcessHubDbContext))]
-    [Migration("20180128032806_longdescriptio")]
-    partial class longdescriptio
+    [Migration("20180128153436_testaftermovefolder")]
+    partial class testaftermovefolder
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,6 +31,8 @@ namespace ProcessHub.Persistence.Migrations
                     b.Property<string>("LongDescription");
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("ShortDescription");
 
                     b.HasKey("Id");
 

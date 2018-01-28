@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
 
-namespace ProcessHub.Migrations
+namespace ProcessHub.Persistence.Migrations
 {
     public partial class InitialModel : Migration
     {

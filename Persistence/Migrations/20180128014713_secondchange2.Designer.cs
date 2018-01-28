@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.Internal;
 using ProcessHub.Persistence;
 using System;
 
-namespace ProcessHub.Migrations
+namespace ProcessHub.Persistence.Migrations
 {
     [DbContext(typeof(ProcessHubDbContext))]
     [Migration("20180128014713_secondchange2")]

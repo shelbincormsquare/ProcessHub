@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.Internal;
 using ProcessHub.Persistence;
 using System;
 
-namespace ProcessHub.Migrations
+namespace ProcessHub.Persistence.Migrations
 {
     [DbContext(typeof(ProcessHubDbContext))]
     partial class ProcessHubDbContextModelSnapshot : ModelSnapshot
@@ -30,6 +30,8 @@ namespace ProcessHub.Migrations
                     b.Property<string>("LongDescription");
 
                     b.Property<string>("Name");
+
+                    b.Property<string>("ShortDescription");
 
                     b.HasKey("Id");
 
